@@ -1,0 +1,7326 @@
+{
+  "app_version": "1.14.0",
+  "build": "21",
+  "source": "bundled authorized clinical demo; confirmed by operator",
+  "presentation": "Edited sequence of actual MCP responses; not a real-time screen recording",
+  "records": [
+    {
+      "tool": "get_state",
+      "arguments": {},
+      "elapsed_ms": 2,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 0.8453538417816162
+      }
+    },
+    {
+      "tool": "set_view",
+      "arguments": {
+        "view": "panorama"
+      },
+      "elapsed_ms": 22,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 59.558961943017785,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "panorama",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "jaw": "upper"
+      },
+      "elapsed_ms": 37,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 59.558961943017785,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "panorama",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "position_mm": 54
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 53.96281786783491,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "panorama",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 2,
+      "isError": true,
+      "content": [
+        {
+          "type": "text",
+          "text": "The image is still rendering. Try again after it is ready."
+        }
+      ]
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 9,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 53.96281786783491,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_size_px": [
+          597,
+          300
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "panorama",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      },
+      "file": "panorama.png",
+      "sha256": "eebe7dc07bc6123146de673fe23c489f148174d759ffb0e5643bc1991fd52e22"
+    },
+    {
+      "tool": "set_view",
+      "arguments": {
+        "view": "cross_section"
+      },
+      "elapsed_ms": 8,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 53.96281786783491,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "position_mm": 44
+      },
+      "elapsed_ms": 5,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 43.969703447865484,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 5,
+      "isError": false,
+      "result": {
+        "image_extent_mm": [
+          30,
+          60
+        ],
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 43.969703447865484,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_size_px": [
+          150,
+          300
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "image_id": "90D0F2A4-623F-4DDB-B115-F3EF58C21BFE",
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      },
+      "file": "section-044.png",
+      "sha256": "68c590e4885e1b814ff377ac962f7c32165770f8628642b4137ade38e9af640a"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "position_mm": 46
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 45.968326331859366,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 7,
+      "isError": false,
+      "result": {
+        "image_extent_mm": [
+          30,
+          60
+        ],
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 45.968326331859366,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_size_px": [
+          150,
+          300
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "image_id": "1A8C3700-87E6-4CE2-93B4-5D63C3095B94",
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      },
+      "file": "section-046.png",
+      "sha256": "7a2b913859bb3430d66bb6a99989a13750169d5ff5d7c1fb50c33cba41e7d5de"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "position_mm": 48
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 47.966949215853255,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 3,
+      "isError": false,
+      "result": {
+        "image_extent_mm": [
+          30,
+          60
+        ],
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 47.966949215853255,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_size_px": [
+          150,
+          300
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "image_id": "D66D54D8-FA7D-42A2-A899-8AD6EBE41543",
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      },
+      "file": "section-048.png",
+      "sha256": "a766d0abea6308304e362168b841838aeeb235f91c5df62c03ca6dab966e9daa"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "position_mm": 50
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 49.96557209984714,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 3,
+      "isError": false,
+      "result": {
+        "image_extent_mm": [
+          30,
+          60
+        ],
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 49.96557209984714,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_size_px": [
+          150,
+          300
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "image_id": "6B03668B-6B6B-4EC3-A7FD-F966F29558C0",
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      },
+      "file": "section-050.png",
+      "sha256": "964131d3e771531c468bd4571f5b59c39c5bbfb0cef8ceff26424ade12fd87c1"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "position_mm": 52
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 51.964194983841026,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 3,
+      "isError": false,
+      "result": {
+        "image_extent_mm": [
+          30,
+          60
+        ],
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 51.964194983841026,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_size_px": [
+          150,
+          300
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "image_id": "F385C955-5EC4-42F1-AF81-DF32F4A28793",
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      },
+      "file": "section-052.png",
+      "sha256": "85703dfe64d8bb2812bfa9184005598714badaba28c2ef6e8f0fe3ac2f5babf4"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "position_mm": 54
+      },
+      "elapsed_ms": 3,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 53.96281786783491,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 3,
+      "isError": false,
+      "result": {
+        "image_extent_mm": [
+          30,
+          60
+        ],
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 53.96281786783491,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_size_px": [
+          150,
+          300
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "image_id": "E05D36B8-AE3A-47E0-A01B-3F5A43F36161",
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      },
+      "file": "section-054.png",
+      "sha256": "9999e6ccaa3c2ee53296bd2d438d0a793f72b2bc2dc6d7d48a1b9eb3947b69d1"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "position_mm": 56
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 55.961440751828796,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 2,
+      "isError": false,
+      "result": {
+        "image_extent_mm": [
+          30,
+          60
+        ],
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 55.961440751828796,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_size_px": [
+          150,
+          300
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "image_id": "95207EA1-ABC6-4B1A-B4CD-46A3BBC726CB",
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      },
+      "file": "section-056.png",
+      "sha256": "3c836f03f3434d0069f70ad95560ae3d39a55a7a01ddbf30093f660df5c3fb84"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "position_mm": 58
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 57.96006363582268,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 2,
+      "isError": false,
+      "result": {
+        "image_extent_mm": [
+          30,
+          60
+        ],
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 57.96006363582268,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_size_px": [
+          150,
+          300
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "image_id": "15181AE9-8A7D-44DE-A021-D8260EB8FCA7",
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      },
+      "file": "section-058.png",
+      "sha256": "08ff59b51830eb1939699f73f1d700a75cc3c9766b9b84c81b6db5628c01431d"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "position_mm": 60
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 59.95868651981657,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 6,
+      "isError": false,
+      "result": {
+        "image_extent_mm": [
+          30,
+          60
+        ],
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 59.95868651981657,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_size_px": [
+          150,
+          300
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "image_id": "BAA4B478-2DBB-49A4-B664-BEACF413312C",
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      },
+      "file": "section-060.png",
+      "sha256": "f932eca9af3006e9a838d2cab9f7380ffc8e03be992819bc6037e38fd049b3fc"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "position_mm": 62
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 61.95730940381045,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 3,
+      "isError": false,
+      "result": {
+        "image_extent_mm": [
+          30,
+          60
+        ],
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 61.95730940381045,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_size_px": [
+          150,
+          300
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "image_id": "3A8BAAB4-0151-49C5-80B5-B6237AF1FA94",
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      },
+      "file": "section-062.png",
+      "sha256": "69b07770fbe369db98b1e34a60d7bc6ab187c532700e3ea69663efa167e80007"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "position_mm": 64
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 63.95593228780434,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 3,
+      "isError": false,
+      "result": {
+        "image_extent_mm": [
+          30,
+          60
+        ],
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 63.95593228780434,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_size_px": [
+          150,
+          300
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "image_id": "9C61CCB2-C739-4953-A141-376DEF90A024",
+        "view": "cross_section",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      },
+      "file": "section-064.png",
+      "sha256": "39ccf0b63a1f116acfb593f3b7f142b90a6f5e1fe683fc67a63873d6b77bfc22"
+    },
+    {
+      "tool": "set_view",
+      "arguments": {
+        "view": "mpr"
+      },
+      "elapsed_ms": 4,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oblique": false,
+        "oriented": true,
+        "loaded": true,
+        "view": "mpr",
+        "main_plane": "axial",
+        "cursor_mm": [
+          37.556949536469276,
+          21.174391929294234,
+          30
+        ],
+        "roll_rad": [
+          0,
+          0,
+          0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "active_plane": "axial",
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "mpr_plane": "axial",
+        "slice": 171
+      },
+      "elapsed_ms": 17,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oblique": false,
+        "oriented": true,
+        "loaded": true,
+        "view": "mpr",
+        "main_plane": "axial",
+        "cursor_mm": [
+          37.556949536469276,
+          21.174391929294234,
+          34
+        ],
+        "roll_rad": [
+          0,
+          0,
+          0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "active_plane": "axial",
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {
+        "mpr_plane": "axial"
+      },
+      "elapsed_ms": 6,
+      "isError": false,
+      "result": {
+        "loaded": true,
+        "oblique": false,
+        "oriented": true,
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "image_extent_mm": [
+          80,
+          80
+        ],
+        "loading": false,
+        "cursor_mm": [
+          37.556949536469276,
+          21.174391929294234,
+          34
+        ],
+        "image_id": "AEE2B731-0796-4CF8-8169-77149819DA02",
+        "main_plane": "axial",
+        "image_offset_mm": 34,
+        "image_side_labels": [
+          "R",
+          "L",
+          "A",
+          "P"
+        ],
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_plane": "axial",
+        "image_slice": 171,
+        "view": "mpr",
+        "zoom": 1,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "active_plane": "axial",
+        "image_size_px": [
+          400,
+          400
+        ],
+        "roll_rad": [
+          0,
+          0,
+          0
+        ]
+      },
+      "file": "mpr-axial.png",
+      "sha256": "9a98b0e22d6e2a16a71ee92a7342484c3c86cbbedf4c4540aa2073caeb62155f"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "mpr_plane": "coronal",
+        "slice": 180
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oblique": false,
+        "oriented": true,
+        "loaded": true,
+        "view": "mpr",
+        "main_plane": "axial",
+        "cursor_mm": [
+          37.556949536469276,
+          35.800000000000004,
+          34
+        ],
+        "roll_rad": [
+          0,
+          0,
+          0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "active_plane": "coronal",
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {
+        "mpr_plane": "coronal"
+      },
+      "elapsed_ms": 7,
+      "isError": false,
+      "result": {
+        "loaded": true,
+        "oblique": false,
+        "oriented": true,
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "image_extent_mm": [
+          80,
+          60.00000000000001
+        ],
+        "loading": false,
+        "cursor_mm": [
+          37.556949536469276,
+          35.800000000000004,
+          34
+        ],
+        "image_id": "759170F5-55ED-41FA-9206-D7142D3490F2",
+        "main_plane": "axial",
+        "image_offset_mm": 35.800000000000004,
+        "image_side_labels": [
+          "R",
+          "L",
+          "S",
+          "I"
+        ],
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_plane": "coronal",
+        "image_slice": 180,
+        "view": "mpr",
+        "zoom": 1,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "active_plane": "coronal",
+        "image_size_px": [
+          400,
+          300
+        ],
+        "roll_rad": [
+          0,
+          0,
+          0
+        ]
+      },
+      "file": "mpr-coronal.png",
+      "sha256": "3ea73e7a29a7e709e79448c82c37a827d7005429599c1cf9e947ab20b9bc264e"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "mpr_plane": "sagittal",
+        "slice": 200
+      },
+      "elapsed_ms": 2,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oblique": false,
+        "oriented": true,
+        "loaded": true,
+        "view": "mpr",
+        "main_plane": "axial",
+        "cursor_mm": [
+          39.800000000000004,
+          35.800000000000004,
+          34
+        ],
+        "roll_rad": [
+          0,
+          0,
+          0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "active_plane": "sagittal",
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {
+        "mpr_plane": "sagittal"
+      },
+      "elapsed_ms": 6,
+      "isError": false,
+      "result": {
+        "loaded": true,
+        "oblique": false,
+        "oriented": true,
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "image_extent_mm": [
+          80,
+          60.00000000000001
+        ],
+        "loading": false,
+        "cursor_mm": [
+          39.800000000000004,
+          35.800000000000004,
+          34
+        ],
+        "image_id": "DD7A7968-0CFF-48E8-89FF-2A092479B28B",
+        "main_plane": "axial",
+        "image_offset_mm": 39.800000000000004,
+        "image_side_labels": [
+          "A",
+          "P",
+          "S",
+          "I"
+        ],
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_plane": "sagittal",
+        "image_slice": 200,
+        "view": "mpr",
+        "zoom": 1,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "active_plane": "sagittal",
+        "image_size_px": [
+          400,
+          300
+        ],
+        "roll_rad": [
+          0,
+          0,
+          0
+        ]
+      },
+      "file": "mpr-sagittal.png",
+      "sha256": "6c67522d429dca1e45af09fde91f3efb358625d714bcad2dedc840ffbc5973b2"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "mpr_plane": "coronal",
+        "slice": 160
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oblique": false,
+        "oriented": true,
+        "loaded": true,
+        "view": "mpr",
+        "main_plane": "axial",
+        "cursor_mm": [
+          39.800000000000004,
+          31.8,
+          34
+        ],
+        "roll_rad": [
+          0,
+          0,
+          0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "active_plane": "coronal",
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {
+        "mpr_plane": "coronal"
+      },
+      "elapsed_ms": 4,
+      "isError": false,
+      "result": {
+        "loaded": true,
+        "oblique": false,
+        "oriented": true,
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "image_extent_mm": [
+          80,
+          60.00000000000001
+        ],
+        "loading": false,
+        "cursor_mm": [
+          39.800000000000004,
+          31.8,
+          34
+        ],
+        "image_id": "4BE1ED66-AC8F-4E1A-8F7C-986E2E497059",
+        "main_plane": "axial",
+        "image_offset_mm": 31.8,
+        "image_side_labels": [
+          "R",
+          "L",
+          "S",
+          "I"
+        ],
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_plane": "coronal",
+        "image_slice": 160,
+        "view": "mpr",
+        "zoom": 1,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "active_plane": "coronal",
+        "image_size_px": [
+          400,
+          300
+        ],
+        "roll_rad": [
+          0,
+          0,
+          0
+        ]
+      },
+      "file": "mcp-coronal-160.png",
+      "sha256": "026c6f89933d3afaae29f592baa43317e0655dd2da79cbca1f622293fe65df9f"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "mpr_plane": "coronal",
+        "slice": 180
+      },
+      "elapsed_ms": 2,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oblique": false,
+        "oriented": true,
+        "loaded": true,
+        "view": "mpr",
+        "main_plane": "axial",
+        "cursor_mm": [
+          39.800000000000004,
+          35.800000000000004,
+          34
+        ],
+        "roll_rad": [
+          0,
+          0,
+          0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "active_plane": "coronal",
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {
+        "mpr_plane": "coronal"
+      },
+      "elapsed_ms": 4,
+      "isError": false,
+      "result": {
+        "loaded": true,
+        "oblique": false,
+        "oriented": true,
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "image_extent_mm": [
+          80,
+          60.00000000000001
+        ],
+        "loading": false,
+        "cursor_mm": [
+          39.800000000000004,
+          35.800000000000004,
+          34
+        ],
+        "image_id": "280E2491-3573-4489-9AF4-3430EAE574D9",
+        "main_plane": "axial",
+        "image_offset_mm": 35.800000000000004,
+        "image_side_labels": [
+          "R",
+          "L",
+          "S",
+          "I"
+        ],
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_plane": "coronal",
+        "image_slice": 180,
+        "view": "mpr",
+        "zoom": 1,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "active_plane": "coronal",
+        "image_size_px": [
+          400,
+          300
+        ],
+        "roll_rad": [
+          0,
+          0,
+          0
+        ]
+      },
+      "file": "mcp-coronal-180.png",
+      "sha256": "3ea73e7a29a7e709e79448c82c37a827d7005429599c1cf9e947ab20b9bc264e"
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "mpr_plane": "coronal",
+        "slice": 200
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oblique": false,
+        "oriented": true,
+        "loaded": true,
+        "view": "mpr",
+        "main_plane": "axial",
+        "cursor_mm": [
+          39.800000000000004,
+          39.800000000000004,
+          34
+        ],
+        "roll_rad": [
+          0,
+          0,
+          0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "active_plane": "coronal",
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {
+        "mpr_plane": "coronal"
+      },
+      "elapsed_ms": 5,
+      "isError": false,
+      "result": {
+        "loaded": true,
+        "oblique": false,
+        "oriented": true,
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "image_extent_mm": [
+          80,
+          60.00000000000001
+        ],
+        "loading": false,
+        "cursor_mm": [
+          39.800000000000004,
+          39.800000000000004,
+          34
+        ],
+        "image_id": "24055FC4-2679-4D29-B520-2F01777F0C97",
+        "main_plane": "axial",
+        "image_offset_mm": 39.800000000000004,
+        "image_side_labels": [
+          "R",
+          "L",
+          "S",
+          "I"
+        ],
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "image_plane": "coronal",
+        "image_slice": 200,
+        "view": "mpr",
+        "zoom": 1,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "active_plane": "coronal",
+        "image_size_px": [
+          400,
+          300
+        ],
+        "roll_rad": [
+          0,
+          0,
+          0
+        ]
+      },
+      "file": "mcp-coronal-200.png",
+      "sha256": "db93630a35b61da0a6866112b0f0cee2ac64feec913dffce26a554dfaab1006a"
+    },
+    {
+      "tool": "set_view",
+      "arguments": {
+        "view": "volume_3d"
+      },
+      "elapsed_ms": 34,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "reset": true,
+        "zoom": 1.7
+      },
+      "elapsed_ms": 7,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": false,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 45,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-000.png",
+      "sha256": "7cc6a42cb591e75645f177300768a59cfdbbe44acee555ae6de58594feeebcc4"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7068644762039185,
+          0.01850990019738674,
+          0.018509898334741592,
+          0.7068645358085632
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 45,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7068644762039185,
+          0.01850990019738674,
+          0.018509898334741592,
+          0.7068645358085632
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-001.png",
+      "sha256": "fa82fea46a019a76aa88574e54c77c823274d59252b7ebb08bb2af5596a0fcd1"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7061377167701721,
+          0.03700711578130722,
+          0.03700711205601692,
+          0.7061377763748169
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 44,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7061377167701721,
+          0.03700711578130722,
+          0.03700711205601692,
+          0.7061377763748169
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-002.png",
+      "sha256": "36b0735f7e416cee425d50c61096208474852f90923a403075d8330bc96d5933"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7049269676208496,
+          0.05547896772623062,
+          0.055478960275650024,
+          0.7049270272254944
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 45,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7049269676208496,
+          0.05547896772623062,
+          0.055478960275650024,
+          0.7049270272254944
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-003.png",
+      "sha256": "10fe5caf4fd9dc6fb2352d21f39e650c1944cc6475609b395aaf220245eab972"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7032331228256226,
+          0.07391279935836792,
+          0.07391278445720673,
+          0.7032331824302673
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 41,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7032331228256226,
+          0.07391279935836792,
+          0.07391278445720673,
+          0.7032331824302673
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-004.png",
+      "sha256": "f11bfabf47d44db7927609f3ba9aa4a730cb69b614772e318772cdc4d3ab707c"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7010573148727417,
+          0.09229597449302673,
+          0.09229595959186554,
+          0.7010573744773865
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 37,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7010573148727417,
+          0.09229597449302673,
+          0.09229595959186554,
+          0.7010573744773865
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-005.png",
+      "sha256": "2eeaec2e2cfd28618e033e470a8742aca7cd94a647393b810aa18f895718c469"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6984010934829712,
+          0.11061589419841766,
+          0.11061587184667587,
+          0.698401153087616
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 40,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6984010934829712,
+          0.11061589419841766,
+          0.11061587184667587,
+          0.698401153087616
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-006.png",
+      "sha256": "e31c3689ecf4061169eec0994a29bf17a0b08fd496ff949ad91abcdc4b5a2aae"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6952661871910095,
+          0.1288599967956543,
+          0.1288599818944931,
+          0.6952662467956543
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 30,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6952661871910095,
+          0.1288599967956543,
+          0.1288599818944931,
+          0.6952662467956543
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-007.png",
+      "sha256": "71332baac380a086f696d4348a5a3cc9ab1377d294f4e0c5a2402dfe1b4147db"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6916548013687134,
+          0.1470157951116562,
+          0.147015780210495,
+          0.6916548609733582
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 42,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6916548013687134,
+          0.1470157951116562,
+          0.147015780210495,
+          0.6916548609733582
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-008.png",
+      "sha256": "afba6efd508794cbc54f1ebb794f5c91a9c3bc61963a7aedebfc10d511bf5915"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6875693798065186,
+          0.16507083177566528,
+          0.1650708168745041,
+          0.6875694394111633
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 42,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6875693798065186,
+          0.16507083177566528,
+          0.1650708168745041,
+          0.6875694394111633
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-009.png",
+      "sha256": "5b95ee92ec1922db402b2bb592a57b319ab05839e03037a52e515acd1c67ac54"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6830126643180847,
+          0.1830127239227295,
+          0.1830127090215683,
+          0.6830127239227295
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 42,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6830126643180847,
+          0.1830127239227295,
+          0.1830127090215683,
+          0.6830127239227295
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-010.png",
+      "sha256": "782df1906febfd027319b93d673c64b76461db2d79e697e23ea39d11a0b3c10d"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6779878735542297,
+          0.20082919299602509,
+          0.2008291780948639,
+          0.6779879331588745
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 38,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6779878735542297,
+          0.20082919299602509,
+          0.2008291780948639,
+          0.6779879331588745
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-011.png",
+      "sha256": "d0ef4ba90e88237682d7628bac95186d5f7674cba49e5a0afc20dd75206b6e21"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6724984645843506,
+          0.2185080349445343,
+          0.2185080200433731,
+          0.6724985241889954
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 33,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6724984645843506,
+          0.2185080349445343,
+          0.2185080200433731,
+          0.6724985241889954
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-012.png",
+      "sha256": "5390129b3533d09d966612cbc37643a18a568f4e8b7d57ac6f39fee40663e6f2"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6665481328964233,
+          0.23603712022304535,
+          0.23603710532188416,
+          0.6665481925010681
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 34,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6665481328964233,
+          0.23603712022304535,
+          0.23603710532188416,
+          0.6665481925010681
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-013.png",
+      "sha256": "46c8d41bc14b05f31365346032c442a3a1b89e0413aec259eeb24361afffd370"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6601409912109375,
+          0.253404438495636,
+          0.2534044086933136,
+          0.6601410508155823
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 39,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6601409912109375,
+          0.253404438495636,
+          0.2534044086933136,
+          0.6601410508155823
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-014.png",
+      "sha256": "764fdb1b967e00c8ab091b06394c188c8d2bcfc438ea9501aa0b4f86a6859c05"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6532814502716064,
+          0.27059808373451233,
+          0.27059805393218994,
+          0.6532815098762512
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 35,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6532814502716064,
+          0.27059808373451233,
+          0.27059805393218994,
+          0.6532815098762512
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-015.png",
+      "sha256": "ae05436ac668c3d66ffd84e949938adc288c04eb24c129d321975c12d2c02aea"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6459741592407227,
+          0.28760629892349243,
+          0.28760623931884766,
+          0.6459742188453674
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 37,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6459741592407227,
+          0.28760629892349243,
+          0.28760623931884766,
+          0.6459742188453674
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-016.png",
+      "sha256": "e01c921b084863111b763704dcdacca397b9b6ec8e23f1740b18ea9596afe376"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6382241249084473,
+          0.30441737174987793,
+          0.30441731214523315,
+          0.638224184513092
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 35,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6382241249084473,
+          0.30441737174987793,
+          0.30441731214523315,
+          0.638224184513092
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-017.png",
+      "sha256": "74cc1f2fe8ea5f472441923b61b20a25df94bd9fd1fa98e94485f2f34bd797db"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6300367116928101,
+          0.32101982831954956,
+          0.3210197687149048,
+          0.6300367712974548
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 38,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6300367116928101,
+          0.32101982831954956,
+          0.3210197687149048,
+          0.6300367712974548
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-018.png",
+      "sha256": "be225406b3e1ab4f5565857b9eaa7ec7bc2e10d02bfff8e9eef9478b9a893749"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6214175224304199,
+          0.3374022841453552,
+          0.33740219473838806,
+          0.6214175820350647
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 39,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6214175224304199,
+          0.3374022841453552,
+          0.33740219473838806,
+          0.6214175820350647
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-019.png",
+      "sha256": "1ad492dc7c37340785e0e81015b6c42ddad0d466607b0f90a44113a6980df762"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6123723983764648,
+          0.35355350375175476,
+          0.3535534143447876,
+          0.6123724579811096
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 39,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6123723983764648,
+          0.35355350375175476,
+          0.3535534143447876,
+          0.6123724579811096
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-020.png",
+      "sha256": "618fac6699f9be2bba9f1262263bd0546d8396884d18e1f6460747b1121e122e"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6029075980186462,
+          0.36946240067481995,
+          0.3694623112678528,
+          0.602907657623291
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 42,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.6029075980186462,
+          0.36946240067481995,
+          0.3694623112678528,
+          0.602907657623291
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-021.png",
+      "sha256": "157bc83d89bda306e8d644c70c95eae89a34b77147a6b4464cc07db15609da64"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5930295586585999,
+          0.3851180374622345,
+          0.38511794805526733,
+          0.5930296182632446
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 41,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5930295586585999,
+          0.3851180374622345,
+          0.38511794805526733,
+          0.5930296182632446
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-022.png",
+      "sha256": "f3d5de603d0dbb9846310699f58c89989efbcdefc475fb81f9d5a59180555a88"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5827451348304749,
+          0.400509774684906,
+          0.40050968527793884,
+          0.5827451944351196
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 32,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5827451348304749,
+          0.400509774684906,
+          0.40050968527793884,
+          0.5827451944351196
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-023.png",
+      "sha256": "dcde217972598133cbb2e40bf91aeeb82f23324b4e95a67a899666fcb3e4ea3e"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5720613598823547,
+          0.41562703251838684,
+          0.4156269431114197,
+          0.5720614194869995
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 48,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5720613598823547,
+          0.41562703251838684,
+          0.4156269431114197,
+          0.5720614194869995
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-024.png",
+      "sha256": "69778bcb69e724e7fc6db1844964e1c6034481c2f43db0217799137e50518b28"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5609854459762573,
+          0.4304594397544861,
+          0.4304593503475189,
+          0.5609855055809021
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 44,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5609854459762573,
+          0.4304594397544861,
+          0.4304593503475189,
+          0.5609855055809021
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-025.png",
+      "sha256": "8532cdaa9e7e6e88ebc860576fd412cc730f024481bad5374daaa54750c1985f"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5495250821113586,
+          0.44499683380126953,
+          0.44499674439430237,
+          0.5495251417160034
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 45,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5495250821113586,
+          0.44499683380126953,
+          0.44499674439430237,
+          0.5495251417160034
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-026.png",
+      "sha256": "ae8e2458e410475f6d17329297783bc71297349c3d2dc6d0f005b8d62c400e9b"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.537688136100769,
+          0.4592292308807373,
+          0.45922914147377014,
+          0.5376881957054138
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 43,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.537688136100769,
+          0.4592292308807373,
+          0.45922914147377014,
+          0.5376881957054138
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-027.png",
+      "sha256": "6d1931455f33aa0707e88d2e64fae5c3de6182d4982408a73124d935f85e29ae"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5254826545715332,
+          0.473146915435791,
+          0.47314682602882385,
+          0.525482714176178
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 42,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5254826545715332,
+          0.473146915435791,
+          0.47314682602882385,
+          0.525482714176178
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-028.png",
+      "sha256": "8e4398d9b39c08b047d99e19a87a3052460074512963994b0ee6bf3844be55de"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5129170417785645,
+          0.4867403209209442,
+          0.48674023151397705,
+          0.5129171013832092
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 45,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.5129170417785645,
+          0.4867403209209442,
+          0.48674023151397705,
+          0.5129171013832092
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-029.png",
+      "sha256": "12640c8c1aea575075e28bcbb7cf8038c89b1b0de7b8ae8739017771627eacb8"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.49999988079071045,
+          0.5000001192092896,
+          0.5000000596046448,
+          0.4999999403953552
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 43,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.49999988079071045,
+          0.5000001192092896,
+          0.5000000596046448,
+          0.4999999403953552
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-030.png",
+      "sha256": "83844418ea69f7a4bc17d611e5f7cfe5c9b16318a42588453b692b34b61f25e2"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.4867400825023651,
+          0.5129172801971436,
+          0.5129172205924988,
+          0.4867401421070099
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 42,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.4867400825023651,
+          0.5129172801971436,
+          0.5129172205924988,
+          0.4867401421070099
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-031.png",
+      "sha256": "61a4b0356594716a05bf49bf961de60fb77842366d0f6cdc6c9a65c78783b900"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.4731466770172119,
+          0.5254828929901123,
+          0.5254828333854675,
+          0.4731467366218567
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 44,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.4731466770172119,
+          0.5254828929901123,
+          0.5254828333854675,
+          0.4731467366218567
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-032.png",
+      "sha256": "692dc7f6538cb93475add2f69ce6538fe87bc79d70fbcbbb008d65c907f237e7"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.4592290222644806,
+          0.5376883745193481,
+          0.5376883149147034,
+          0.45922908186912537
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 47,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.4592290222644806,
+          0.5376883745193481,
+          0.5376883149147034,
+          0.45922908186912537
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-033.png",
+      "sha256": "ccfebb364c5cbf8eca290bfbe72aef1d6d29125bdc315b0947e704be2664e33f"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.44499656558036804,
+          0.5495253205299377,
+          0.549525260925293,
+          0.4449966251850128
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 59,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.44499656558036804,
+          0.5495253205299377,
+          0.549525260925293,
+          0.4449966251850128
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-034.png",
+      "sha256": "8418f703b541a3a34e0db9328fe024e34653cb56814ddfa82f57fbb394828128"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.4304591715335846,
+          0.5609856843948364,
+          0.5609856247901917,
+          0.43045923113822937
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 45,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.4304591715335846,
+          0.5609856843948364,
+          0.5609856247901917,
+          0.43045923113822937
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-035.png",
+      "sha256": "3e6a6ed95d170553bd47e7f4a1690006bcf81b65a2a49daa153347b8569d3484"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.41562679409980774,
+          0.5720615983009338,
+          0.5720614790916443,
+          0.4156268537044525
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 42,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.41562679409980774,
+          0.5720615983009338,
+          0.5720614790916443,
+          0.4156268537044525
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-036.png",
+      "sha256": "703af0c3164b742fdc81cd0a6080f0ac2b77d47c768423635ef7408a61c3dcf9"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.4005095362663269,
+          0.582745373249054,
+          0.5827452540397644,
+          0.4005095958709717
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 43,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.4005095362663269,
+          0.582745373249054,
+          0.5827452540397644,
+          0.4005095958709717
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-037.png",
+      "sha256": "ff03befaebbe1db57cccee44afbe40bd49c7e89d11fc28d07ffa3dad4c9eb0b2"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.3851177990436554,
+          0.593029797077179,
+          0.5930296778678894,
+          0.38511785864830017
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 51,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.3851177990436554,
+          0.593029797077179,
+          0.5930296778678894,
+          0.38511785864830017
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-038.png",
+      "sha256": "c0fe262531e1e74f76bcf27a0e6d1b10b42777244399140a7e0b635d68e46bca"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.36946213245391846,
+          0.6029078364372253,
+          0.6029077172279358,
+          0.36946219205856323
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 47,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.36946213245391846,
+          0.6029078364372253,
+          0.6029077172279358,
+          0.36946219205856323
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-039.png",
+      "sha256": "164a757d769488e84b15efb00abf0bb78bfd5ea9b68362425d7dfb8704d12272"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.35355323553085327,
+          0.612372636795044,
+          0.6123725175857544,
+          0.35355329513549805
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 49,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.35355323553085327,
+          0.612372636795044,
+          0.6123725175857544,
+          0.35355329513549805
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-040.png",
+      "sha256": "afa6fe231166811bacd3013619a954d257c72fc27294aad3cf825829c7185604"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.3374020457267761,
+          0.6214177012443542,
+          0.6214175820350647,
+          0.3374021053314209
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 62,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.3374020457267761,
+          0.6214177012443542,
+          0.6214175820350647,
+          0.3374021053314209
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-041.png",
+      "sha256": "36812bc67e807609711804183f2076b79d90285f73fe4a30e8f71d99314b0e36"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.32101961970329285,
+          0.6300368905067444,
+          0.6300367712974548,
+          0.3210196793079376
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 51,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.32101961970329285,
+          0.6300368905067444,
+          0.6300367712974548,
+          0.3210196793079376
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-042.png",
+      "sha256": "94e9806df7810dbad23d15a5e6214f60b3825d90f8da440a5c13293b53aaa20f"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.3044171929359436,
+          0.6382243037223816,
+          0.638224184513092,
+          0.304417222738266
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 55,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.3044171929359436,
+          0.6382243037223816,
+          0.638224184513092,
+          0.304417222738266
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-043.png",
+      "sha256": "4a30d129f51bb4107b23351b518073d9752374069b9daf81251ed214c7d2e2a7"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.2876061201095581,
+          0.645974338054657,
+          0.6459742188453674,
+          0.2876061499118805
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 50,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.2876061201095581,
+          0.645974338054657,
+          0.6459742188453674,
+          0.2876061499118805
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-044.png",
+      "sha256": "a9549b9f2707276737800ac2e0862d5b0b9f774f1412eb863ba78105a66e1360"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.2705979347229004,
+          0.6532816290855408,
+          0.6532815098762512,
+          0.2705979645252228
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 48,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.2705979347229004,
+          0.6532816290855408,
+          0.6532815098762512,
+          0.2705979645252228
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-045.png",
+      "sha256": "db6ad289018b34a2e9858ce1c9e7f3f609b862e878239763dc2a8f0d11ee672b"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.25340428948402405,
+          0.6601411700248718,
+          0.6601410508155823,
+          0.25340431928634644
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 50,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.25340428948402405,
+          0.6601411700248718,
+          0.6601410508155823,
+          0.25340431928634644
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-046.png",
+      "sha256": "ff36e01d67d35b69b05d320fbba871f6ba0244987448e7352723fe108620cc21"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.2360369712114334,
+          0.6665483117103577,
+          0.6665481925010681,
+          0.2360369861125946
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 49,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.2360369712114334,
+          0.6665483117103577,
+          0.6665481925010681,
+          0.2360369861125946
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-047.png",
+      "sha256": "3a28d7c7d5543fa166cb6343f55ece960127b420e0f7df4dbf044e7346f951a2"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.21850788593292236,
+          0.6724986433982849,
+          0.6724985241889954,
+          0.21850790083408356
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 48,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.21850788593292236,
+          0.6724986433982849,
+          0.6724985241889954,
+          0.21850790083408356
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-048.png",
+      "sha256": "42a79c277ee698d28dc5f4f6260cc521face2cfb0bb29eb3cb83cb6cde442883"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.20082904398441315,
+          0.6779880523681641,
+          0.6779879331588745,
+          0.20082905888557434
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 49,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.20082904398441315,
+          0.6779880523681641,
+          0.6779879331588745,
+          0.20082905888557434
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-049.png",
+      "sha256": "d81d5d3dba4957c88f51adb574b8d7b2d92f2728cdff98e095834231bdd77693"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.18301257491111755,
+          0.6830127835273743,
+          0.6830126643180847,
+          0.18301258981227875
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 50,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.18301257491111755,
+          0.6830127835273743,
+          0.6830126643180847,
+          0.18301258981227875
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-050.png",
+      "sha256": "8a2d6cc4b0fd751bb3c628150a7e30d006690c55f3f136d02b4d3f18dcb384b5"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.16507066786289215,
+          0.6875694394111633,
+          0.6875693202018738,
+          0.16507068276405334
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 53,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.16507066786289215,
+          0.6875694394111633,
+          0.6875693202018738,
+          0.16507068276405334
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-051.png",
+      "sha256": "652d9fe90a60033a0cc96e2a63c73c9a149b62f4de8e474bdd9a98612b194a33"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.14701563119888306,
+          0.6916548609733582,
+          0.6916547417640686,
+          0.14701564610004425
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 51,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.14701563119888306,
+          0.6916548609733582,
+          0.6916547417640686,
+          0.14701564610004425
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-052.png",
+      "sha256": "9caed0654ba7ce4f2c33e56a4eac9547cc7af246d7b21bd3efc08f38d7bedfa0"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.12885983288288116,
+          0.6952663064002991,
+          0.6952661871910095,
+          0.12885984778404236
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 50,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.12885983288288116,
+          0.6952663064002991,
+          0.6952661871910095,
+          0.12885984778404236
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-053.png",
+      "sha256": "94a242809bd71ca1e31fc81d836fe500d0c830948fd80d3cd385afb26340d7ef"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.11061573028564453,
+          0.6984012126922607,
+          0.6984010934829712,
+          0.11061574518680573
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 49,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.11061573028564453,
+          0.6984012126922607,
+          0.6984010934829712,
+          0.11061574518680573
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-054.png",
+      "sha256": "2183b64f45e3586ca836c86983a2dcc1930c44b9bd28fa1a2f03267b557335b8"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.0922958180308342,
+          0.701057493686676,
+          0.7010573744773865,
+          0.09229583293199539
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 51,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.0922958180308342,
+          0.701057493686676,
+          0.7010573744773865,
+          0.09229583293199539
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-055.png",
+      "sha256": "ce5ec7c4f8d7af14eb7ed10ff286091cdc7a47db0173a0f1ebc92a66602b0463"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.07391264289617538,
+          0.7032332420349121,
+          0.7032331228256226,
+          0.07391265034675598
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 52,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.07391264289617538,
+          0.7032332420349121,
+          0.7032331228256226,
+          0.07391265034675598
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-056.png",
+      "sha256": "22fc1ca36c647ecb482cb9997486a0ca91822f30f99f60c356933bda95c32b5b"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.05547881871461868,
+          0.7049270868301392,
+          0.7049269676208496,
+          0.05547882616519928
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 49,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.05547881871461868,
+          0.7049270868301392,
+          0.7049269676208496,
+          0.05547882616519928
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-057.png",
+      "sha256": "9a06806d8b58c8c0c3536784fe02035299eb7cae5f396acdc95272c2b3042e70"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.03700697049498558,
+          0.7061377763748169,
+          0.7061376571655273,
+          0.03700697422027588
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 35,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.03700697049498558,
+          0.7061377763748169,
+          0.7061376571655273,
+          0.03700697422027588
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-058.png",
+      "sha256": "f3fd7dcd33e8bc85b9b60f56d8349bd02acbafc78529366b94adda1d18da3c88"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.0185097586363554,
+          0.7068645358085632,
+          0.7068644165992737,
+          0.01850976049900055
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 42,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.0185097586363554,
+          0.7068645358085632,
+          0.7068644165992737,
+          0.01850976049900055
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-059.png",
+      "sha256": "c909982bd04b1b430348a2402570c74ced5908a6f04332ba85e7ed538fcc011f"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "yaw_deg": 3
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          -1.3783574104309082e-07,
+          0.7071068286895752,
+          0.7071067094802856,
+          -1.3969838619232178e-07
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 38,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          -1.3783574104309082e-07,
+          0.7071068286895752,
+          0.7071067094802856,
+          -1.3969838619232178e-07
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "volume-060.png",
+      "sha256": "ffe5caebc345672ad693c5845fbe501935f173efd97f8394c5e72bd6b1b9b0cb"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "reset": true,
+        "zoom": 1.7
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "clip_axis": "axial",
+        "clip_position": 1.0
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 1,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 35,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 1,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "clip-000.png",
+      "sha256": "7cc6a42cb591e75645f177300768a59cfdbbe44acee555ae6de58594feeebcc4"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "clip_axis": "axial",
+        "clip_position": 0.95
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.949999988079071,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 28,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.949999988079071,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "clip-001.png",
+      "sha256": "8faa9e85d1f7b56085a9e3ed0dfd020f477e10db9e60a5d95790201aec000fff"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "clip_axis": "axial",
+        "clip_position": 0.9
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.8999999761581421,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 26,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.8999999761581421,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "clip-002.png",
+      "sha256": "de42c60ca85ee6d655b5b4ebc54ec86cd714bc5fe5f3ceb82be57c4010149e49"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "clip_axis": "axial",
+        "clip_position": 0.85
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.8500000238418579,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 30,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.8500000238418579,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "clip-003.png",
+      "sha256": "5d5287158966d6dc9109d0fe1cfa52febdb37b9dab5f092785b3d943885cadcb"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "clip_axis": "axial",
+        "clip_position": 0.8
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.800000011920929,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 24,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.800000011920929,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "clip-004.png",
+      "sha256": "83e8905a2058894edc6adb9ccbf1fd9b44b0b522b845078625ff33c2c2298f52"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "clip_axis": "axial",
+        "clip_position": 0.75
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.75,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 24,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.75,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "clip-005.png",
+      "sha256": "5a0800883ca029077f17df1a1239e7f592229a73f5b6a9faaf48bcd5a604abfe"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "clip_axis": "axial",
+        "clip_position": 0.7
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.699999988079071,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 27,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.699999988079071,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "clip-006.png",
+      "sha256": "b341d93188c2afbe55264a80eadb868ff227948e0ed2d89ca3651907c08d5ac6"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "clip_axis": "axial",
+        "clip_position": 0.65
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.6499999761581421,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 28,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.6499999761581421,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "clip-007.png",
+      "sha256": "271c868cfd03707f0290bd85a9f61d3399cc632372e5c6036786567dfc1dc25e"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "clip_axis": "axial",
+        "clip_position": 0.6
+      },
+      "elapsed_ms": 0,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.6000000238418579,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 22,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.6000000238418579,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "clip-008.png",
+      "sha256": "cdd07fecd029c391f64e929cd68adcbf3af85c0daa2785ec695b2b9ca08afb5f"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "clip_axis": "axial",
+        "clip_position": 0.55
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.550000011920929,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 27,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.550000011920929,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "clip-009.png",
+      "sha256": "1d6fdd717ca1f60d45762d06b6e4f4291547847799e2f8ab175d280c6493d630"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "clip_axis": "axial",
+        "clip_position": 0.5
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      }
+    },
+    {
+      "tool": "get_image",
+      "arguments": {},
+      "elapsed_ms": 27,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "axial",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1.7000000476837158
+      },
+      "file": "clip-010.png",
+      "sha256": "0d4d24b6e174ce16b03719f913ea107db00150d10c4f85473622a0a6801a35b2"
+    },
+    {
+      "tool": "configure_volume",
+      "arguments": {
+        "reset": true
+      },
+      "elapsed_ms": 1,
+      "isError": false,
+      "result": {
+        "loading": false,
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "reverse_clip": false,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "oriented": true,
+        "loaded": true,
+        "preset": "bone",
+        "opacity": 1,
+        "view": "volume_3d",
+        "clip_axis": "none",
+        "clip_position": 0.5,
+        "rotation_xyzw": [
+          0.7071067690849304,
+          0,
+          0,
+          0.7071068286895752
+        ],
+        "density": 0,
+        "render_ready": true,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "set_view",
+      "arguments": {
+        "view": "panorama"
+      },
+      "elapsed_ms": 6,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 63.95593228780434,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "panorama",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    },
+    {
+      "tool": "navigate",
+      "arguments": {
+        "position_mm": 54
+      },
+      "elapsed_ms": 17,
+      "isError": false,
+      "result": {
+        "dimensions": [
+          400,
+          400,
+          300
+        ],
+        "position_mm": 53.96281786783491,
+        "jaw": "upper",
+        "oriented": true,
+        "spacing_mm": [
+          0.2,
+          0.2,
+          0.2
+        ],
+        "loaded": true,
+        "axial_slice": 151,
+        "section_interval_mm": 2,
+        "view": "panorama",
+        "arch_length_mm": 119.11792388603557,
+        "loading": false,
+        "zoom": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+name: Scan compatibility report
+description: Report compatibility with an INV or DICOM export
+title: "[Compatibility] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share technical details only. Keep scan files, screenshots from patient studies, names and clinic information out of the report.
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - Opens and displays correctly
+        - Opens with a display issue
+        - Does not open
+    validations:
+      required: true
+  - type: input
+    id: viewer
+    attributes:
+      label: INV Viewer version and macOS version
+      placeholder: "INV Viewer 1.14.0, macOS 15, Apple Silicon"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Scanner model and export software/version, if known
+      placeholder: "Manufacturer and model, export version"
+  - type: textarea
+    id: details
+    attributes:
+      label: Steps and exact error text, if any
+      description: Use a generated synthetic fixture for screenshots. The bundled demo is clinical data, not synthetic. Remove identifiers from error messages.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This report contains no patient images, files, or personal identifiers.
+          required: true

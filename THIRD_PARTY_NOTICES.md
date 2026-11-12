@@ -1,0 +1,6 @@
+# Third-party notices
+
+- **OpenJPEG** is linked statically from [upstream revision `8314119b067c0fc77834731168daaebd379fdb12`](https://github.com/uclouvain/openjpeg/tree/8314119b067c0fc77834731168daaebd379fdb12). Its BSD license is [in the source tree](https://github.com/uclouvain/openjpeg/blob/8314119b067c0fc77834731168daaebd379fdb12/LICENSE) and copied into the app bundle. This revision includes the fix discussed in [OpenJPEG issue 1652](https://github.com/uclouvain/openjpeg/issues/1652). The application builds the codec library only.
+- The [invivo-cbct project](https://github.com/z64me/invivo-cbct) was consulted for observations about the format and viewer workflow. It is not bundled or linked.
+- The bundled demo contains a clinical dental CBCT study, with use authorized for this project's demonstration as recorded in [the demo notice](docs/assets/NOTICE.md). Its image blocks retain the subject's anatomy; only the header is replaced with allowlisted geometry and display fields. The MIT software license does not grant permission to reuse these images outside the demonstration. Mathematical synthetic fixtures are used separately by the tests.
+- The GitHub Actions workflow uses [GitHub's checkout action](https://github.com/actions/checkout/tree/3d3c42e5aac5ba805825da76410c181273ba90b1) to obtain the source in CI. It is outside the app runtime.

@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a reproducible viewer or MCP problem
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: Keep patient files, clinical screenshots, identifiers and local paths out of this report. Use a synthetic fixture.
+  - type: input
+    id: environment
+    attributes:
+      label: Viewer version, macOS and chip
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps, expected behavior and actual result
+      description: For MCP, include the tool name and non-sensitive arguments; omit image responses.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This report contains no patient files, clinical images, identifiers or secrets.
+          required: true
