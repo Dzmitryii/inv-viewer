@@ -11,13 +11,18 @@ First [build and open the app](install.md), choose **File → Open demo**, and e
 If you have the Codex CLI, run these commands **from the `inv-viewer` repository folder** after building:
 
 ```sh
-app_path="$(pwd -P)/.build/INV Viewer.app"
-test -x "$app_path/Contents/MacOS/INVViewer" && \
-  codex mcp add inv-viewer -- "$app_path/Contents/MacOS/INVViewer" --mcp
-codex mcp get inv-viewer
+(
+  app_path="$(pwd -P)/.build/INV Viewer.app"
+  if [ ! -x "$app_path/Contents/MacOS/INVViewer" ]; then
+    printf 'App not found at %s. Run this from the repository folder after building.\n' "$app_path" >&2
+    exit 1
+  fi
+  codex mcp add inv-viewer -- "$app_path/Contents/MacOS/INVViewer" --mcp &&
+    codex mcp get inv-viewer
+)
 ```
 
-`codex mcp get` should show that executable path and the `--mcp` argument. If `test` fails, finish the build first and check that you are in the folder containing `build.sh`. If the app is elsewhere, set `app_path` to its full path instead. Always open that same copy in Finder.
+`codex mcp get` should show that executable path and the `--mcp` argument. If you see `App not found`, finish the build first and check that you are in the folder containing `build.sh`. The commands stop without changing the server configuration when the app is missing. If the app is elsewhere, set `app_path` to its full path instead. Always open that same copy in Finder.
 
 If you use the desktop app without the CLI, edit **`~/.codex/config.toml`** in a plain-text editor. In Finder, choose **Go → Go to Folder…** and enter `~/.codex/` to find the file. Create `config.toml` as plain text if it does not exist. Add the table below, replacing the example path with the full path to your app. If an `inv-viewer` table already exists, update it instead of adding a second one. Keep your other settings.
 

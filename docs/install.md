@@ -73,7 +73,7 @@ To control the running app from Codex or another local client, continue with [MC
 
 The [1.14.0 release](https://github.com/Dzmitryii/inv-viewer/releases/tag/v1.14.0) includes an [Apple Silicon developer ZIP](https://github.com/Dzmitryii/inv-viewer/releases/download/v1.14.0/INV-Viewer-1.14.0-macOS-arm64-developer.zip). It is **arm64 only**, ad-hoc signed and **not notarized**. It is provided for development and testing; a standard notarized installer is not available yet.
 
-On an Apple Silicon Mac, download and unzip the archive in Finder to find `INV Viewer.app`. macOS may block a downloaded ad-hoc app. If it does, use the source-build steps above. A successful download does not establish that Gatekeeper will allow it on another Mac. Intel users should build from source.
+On an Apple Silicon Mac, download and unzip the archive in Finder to find `INV Viewer.app`. macOS may block a downloaded ad-hoc app. If it does, use the source-build steps above. Intel users should build from source.
 
 To check the download, save [SHA256SUMS.txt](https://github.com/Dzmitryii/inv-viewer/releases/download/v1.14.0/SHA256SUMS.txt) beside the ZIP. From that folder, run:
 
