@@ -2,9 +2,9 @@
 
 INV Viewer — приложение для просмотра стоматологических КЛКТ на macOS. Открывает поддерживаемые файлы InVivo `.inv` и экспорт DICOM локально.
 
-[![Панорама, сечения, MPR и Metal 3D в INV Viewer](docs/assets/walkthrough.gif)](docs/assets/product-demo.mp4)
+[![Панорама, сечения, MPR и Metal 3D в INV Viewer](docs/assets/walkthrough.gif)](https://dzmitryii.github.io/inv-viewer/ru.html#product)
 
-[English documentation](README.md) · **[Начать на Mac](docs/install.md)** · **[Демонстрация за 24 секунды](docs/assets/product-demo.mp4)** · **[Настройка MCP](docs/mcp.md)**
+[Релиз 1.14.0](https://github.com/Dzmitryii/inv-viewer/releases/tag/v1.14.0) · [English documentation](README.md) · **[Начать на Mac](docs/install.md)** · **[Демонстрация за 24 секунды](https://dzmitryii.github.io/inv-viewer/ru.html#product)** · **[Настройка MCP](docs/mcp.md)**
 
 Откройте свой снимок на Mac: изучите всю дугу, увеличьте сечение, проследите точку в трёх плоскостях и поверните исходный объём в 3D. Для просмотра не нужны аккаунт и загрузка снимка в облако.
 
@@ -18,7 +18,7 @@ INV Viewer — приложение для просмотра стоматоло
 
 ## Управление через MCP
 
-[![Команды MCP и реальное изображение в ответе](docs/assets/mcp-poster.jpg)](docs/assets/mcp-demo.mp4)
+[![Команды MCP и реальное изображение в ответе](docs/assets/mcp-poster.jpg)](https://dzmitryii.github.io/inv-viewer/ru.html#mcp)
 
 Включите локальный мост и укажите MCP-клиенту исполняемый файл той же копии приложения. Пример последовательных аргументов `tools/call`:
 
@@ -30,7 +30,7 @@ INV Viewer — приложение для просмотра стоматоло
 ]
 ```
 
-Массив задаёт порядок вызовов. Передавайте каждый объект отдельно как `params` запроса `tools/call` и дождитесь ответа перед следующим вызовом. Последний ответ содержит PNG и метаданные плоскости и среза. В отдельном ролике показаны реальные вызовы, поворот и отсечение 3D. [Смотреть MCP](docs/assets/mcp-demo.mp4) · [Повторить сценарий](docs/mcp.md) · [Журнал команд и хеши кадров](docs/assets/mcp-transcript.json).
+Массив задаёт порядок вызовов. Передавайте каждый объект отдельно как `params` запроса `tools/call` и дождитесь ответа перед следующим вызовом. Последний ответ содержит PNG и метаданные плоскости и среза. В отдельном ролике показаны реальные вызовы, поворот и отсечение 3D. [Смотреть MCP](https://dzmitryii.github.io/inv-viewer/ru.html#mcp) · [Повторить сценарий](docs/mcp.md) · [Журнал команд и хеши кадров](docs/assets/mcp-transcript.json).
 
 На новой установке мост выключен. Подключённый клиент может запросить изображение и обрабатывать его по своим правилам приватности. Точки измерения задаёт пользователь; управление через MCP не ставит диагноз.
 

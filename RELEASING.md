@@ -22,3 +22,9 @@ In an isolated bundle/profile, repeat: paste/select-all in bookmark fields; expo
 Run `python3 Tests/CaptureDemo.py` to check that media capture rejects a different app version/build before creating output or launching it. Confirm the packaged `Info.plist` is 1.14.0 (21), verify the demo header, inspect the media terms and README links, and exclude `.build`, `__pycache__`, local evidence and patient data from the source archive. Check the videos in a browser before publication.
 
 Before packaging, confirm that image file extensions match their formats and inspect image and video metadata for identifying information.
+
+## Public documentation and demo site
+
+GitHub Pages serves `docs/` from `main` at https://dzmitryii.github.io/inv-viewer/. The `.nojekyll` file keeps the existing HTML, CSS and JavaScript unchanged during publication. README video links target `#product` and `#mcp` on that page, where native video controls provide playback. Keep the repository About website set to the same URL.
+
+After updating documentation, check both videos on the deployed page, the 375 px layout, navigation to installation/MCP/release downloads, and the Pages deployment. Build CI remains required. Documentation fixes can be published on `main` without moving an existing release tag or replacing its archives. Link release notes to the current installation and MCP guides, and describe the tagged archives as the original release snapshot.

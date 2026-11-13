@@ -2,9 +2,11 @@
 
 INV Viewer opens dental CBCT scans on macOS. It reads supported InVivo `.inv` files and DICOM exports.
 
-[![INV Viewer showing a panorama, cross-sections, MPR and 3D](docs/assets/walkthrough.gif)](docs/assets/product-demo.mp4)
+[Watch the demos](https://dzmitryii.github.io/inv-viewer/) · [Release 1.14.0](https://github.com/Dzmitryii/inv-viewer/releases/tag/v1.14.0) · [Install on Mac](docs/install.md) · [MCP setup](docs/mcp.md) · [User guide](docs/usage.md) · [Русский](README.ru.md)
 
-[Build and install](docs/install.md) · [Video](docs/assets/product-demo.mp4) · [MCP setup](docs/mcp.md) · [User guide](docs/usage.md) · [Русский](README.ru.md)
+macOS 14+. Build from source on Apple Silicon or Intel; the release also includes an Apple Silicon developer build. It is ad-hoc signed and not notarized.
+
+[![INV Viewer showing a panorama, cross-sections, MPR and 3D](docs/assets/walkthrough.gif)](https://dzmitryii.github.io/inv-viewer/#product)
 
 ## Viewing a scan
 
@@ -17,25 +19,27 @@ The app includes a demo study with both dental arches set up. Choose **Open demo
 
 ## Build and run
 
-Requires macOS 14+, Xcode Command Line Tools and CMake. From the repository root:
+First install Xcode Command Line Tools and CMake using the [step-by-step installation guide](docs/install.md). Then run:
 
 ```sh
+git clone https://github.com/Dzmitryii/inv-viewer.git
+cd inv-viewer
 bash scripts/bootstrap-openjpeg.sh
 bash build.sh --verify
 open ".build/INV Viewer.app"
 ```
 
-The first command downloads a pinned OpenJPEG revision. The second runs the tests and builds an ad-hoc signed app. Version **1.14.0 (build 21)** has been tested on Apple Silicon. A notarized download is not available yet; see [installation](docs/install.md) for details.
+The bootstrap script downloads a pinned OpenJPEG revision. The build script runs the tests and creates an ad-hoc signed app. Version **1.14.0 (build 21)** passed build and test CI on Apple Silicon and Intel. Native app checks were performed on Apple Silicon. A notarized download is not available yet; see [installation](docs/install.md) for details.
 
 ## MCP
 
 An MCP client can control the app you have open: switch to MPR, move to coronal slice 180, or rotate and clip the 3D volume. The viewer returns PNG images and view settings.
 
-[![MCP slice navigation with the returned PNG](docs/assets/mcp-poster.jpg)](docs/assets/mcp-demo.mp4)
+[![MCP slice navigation with the returned PNG](docs/assets/mcp-poster.jpg)](https://dzmitryii.github.io/inv-viewer/#mcp)
 
 Enable **Tools → Local MCP**, then configure your client to run the executable from the same app bundle with `--mcp`. The server exposes seven tools: `get_state`, `set_view`, `navigate`, `configure_volume`, `get_image`, `measure` and `bookmark`.
 
-[Setup and examples](docs/mcp.md) · [MCP video](docs/assets/mcp-demo.mp4) · [Recorded tool calls](docs/assets/mcp-transcript.json)
+[Setup and examples](docs/mcp.md) · [MCP video](https://dzmitryii.github.io/inv-viewer/#mcp) · [Recorded tool calls](docs/assets/mcp-transcript.json)
 
 For measurements, choose the two ruler points on the returned image.
 

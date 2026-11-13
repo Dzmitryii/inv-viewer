@@ -4,6 +4,8 @@ Test record for version 1.14.0 (build 21), dated 2026-11-12.
 
 ## Build and renderer
 
+The [published release commit](https://github.com/Dzmitryii/inv-viewer/actions/runs/43288607792) also passed CI on macOS 15 Apple Silicon and Intel runners, including the Metal fixture (18 PASS, 0 SKIP per runner). This checks the build and test suite; downloaded-app installation on another Mac remains a separate check.
+
 `bash build.sh --verify` passed from a clean source tree on macOS 27.2.1 / arm64: **17 PASS lines, one headless Metal SKIP**, 323 English/Russian interface strings, valid ad-hoc code signature. The run used the bundled demo and synthetic fixtures.
 
 The headless process had no Metal device. Metal rendering was tested separately in the running app through MCP. [The capture transcript](assets/mcp-transcript.json) records view/slice changes, rotation and clipping. Other GPU configurations still need testing.
